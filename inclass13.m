@@ -15,5 +15,5 @@
 %B. display the mask and plot the centers of the objects on top of the
 %objects
 %C. Make a new figure without the image and plot the centers of the objects
-%so they appear the same as when you plot on the image (Hint: remember
+%so they appear in the same positions as when you plot on the image (Hint: remember
 %Image coordinates). 
