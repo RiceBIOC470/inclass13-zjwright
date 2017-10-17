@@ -46,8 +46,4 @@ end
 %so they appear in the same positions as when you plot on the image (Hint: remember
 %Image coordinates). 
 figure(7)
-[x_length, y_length] = size(cells_3color);
-for ii = 1:2:length(cell_centers)
-    plot(cell_centers(ii), y_length-cell_centers(ii+1), '*r')
-    hold on
-end
+[x_size, y_size] = size(mask);
